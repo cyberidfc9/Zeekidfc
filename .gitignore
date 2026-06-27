@@ -1,0 +1,11 @@
+# Ignore backup files created by the setup tool
+*.backup.*
+
+# Ignore generated alert sender script (created dynamically during setup)
+send_notice_log.py
+
+# Ignore local logs or caches
+*.log
+*.log.gz
+__pycache__/
+*.pyc
